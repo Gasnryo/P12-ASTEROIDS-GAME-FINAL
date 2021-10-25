@@ -22,7 +22,7 @@ class Hero extends GameObject {
     fill(red);
     stroke(white);
     strokeWeight(2);
-    circle(loc.x, loc.y);
+    circle(loc.x, loc.y, 100);
   }
 
   void act() {
